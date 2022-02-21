@@ -1,0 +1,54 @@
+:root {
+  --text: rgba(0, 0, 0, 0.7);
+  --black: rgb(0, 0, 0);
+  --input: #343B3C;
+  --input-hover: #4B4D4E;
+  --active: #0FB918;
+  --light-gray: #B0B3B8;
+  --background-details: #d8dfe7;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #cad4dd;
+  color: var(--text)
+}
+
+a {
+  color:(--text);
+  text-decoration: none;
+}
+
+nav {
+  background: var(--background-details) ; 
+}
+
+nav .logo {
+  display: inline-block;
+}
+
+nav .logo svg {
+  color: var(--black);
+  height: 35px;
+  width: 35px;
+}
+
+card {
+  background:#cad4dd;
+
+}
+
+
+.instagram-nav-text{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
